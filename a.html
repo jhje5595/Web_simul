@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WEB_Simulation</title>
+    <style>
+    #title{
+      text-align : center;
+    }
+    @font-face {
+      font-family: 'Bm';
+      src: url(BM/BMJUA_ttf.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Bm_1';
+    src: url(BM/BMYEONSUNG_ttf.ttf) format('truetype');
+}
+     body {
+       font-family: Bm;
+       margin:0;
+       color:white;
+       background-image: url(br.png);
+       background-repeat: no-repeat;
+       background-size:cover;
+     }
+     a { text-decoration:none;
+     color:white; }
+     #title {
+       font-size:45px;
+       text-align: center;
+       border-bottom:5px solid white;
+       margin:0;
+       padding:20px;
+     }
+     ul{
+       border-right:5px solid white;
+       width:100px;
+       margin:0;
+       padding:20px;
+     }
+     #grid{
+       display: grid;
+       grid-template-columns: 150px 1fr;
+     }
+     #grid ul{
+       padding-left:33px;
+     }
+     #grid #article{
+       padding-left:25px;
+     }
+     #name{
+       font-family: Bm_1;
+     }
+
+     xmp{
+       color:black;
+       font-family: Bm;
+     }
+
+    </style>
+  </head>
+  <body>
+    <div id="title"><h1><a href="index.html">WEB_Simulation</a></h1></div>
+    <div id="grid">
+      <ul>
+        <li><a href="a.html"><h3>a태그</h3></a></li>
+        <li><a href="h.html"><h3>h1~h6태그</h3></a></li>
+        <li><a href="l.html"><h3>ul,ol태그</h3></a></li>
+        <li><a href="div.html"><h3>div태그</h3></a></li>
+        <li><a href="hr.html"><h3>hr태그</h3></a></li>
+      </ul>
+
+<div id="article">
+    <h2>Tag_A</h2>
+    <p>
+      <h4 style="color:yellow;">정의</h4>
+      a태그 (Anchor tag) 는 HTML 에서 굉장히 중요하고 많이사용되는 하이퍼텍스트입니다.<br>
+즉 사용자의 선택에 따라 특정한 정보와 관련된 부분으로 이동할수 있게 조직화된 문서를 의미합니다.<br>
+주로 다른 웹페이지로 이동할때 쓰이거나 아니면 문서안에 특정 위치로 이동할때 사용합니다.<br>
+
+      <h4 style="color:yellow;">사용법</h4><xmp>
+<a href=https://www.naver.com/>네이버</a>  <- 네이버로 이동
+<a href=https://www.google.com/>구글</a> <- 구글로 이동
+      </xmp>
+<div  style="color:red;">a태그안에는 이런식으로 href라는 속성이 있는데 이안의 값이 우리가 이동할 주소가 됩니다.</div><br><br>
+<h4 style="color:yellow;">실제 사용</h4> <br><a href=https://www.naver.com/>네이버</a>
+    <a href=https://www.google.com/>구글</a>
+<br><br>
+    </p>
+  </div>
+</div>
+</div>
+</div>
+  </body>
+</html>

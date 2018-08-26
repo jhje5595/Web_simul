@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WEB_Simulation</title>
+    <style>
+    #title{
+      text-align : center;
+    }
+    @font-face {
+      font-family: 'Bm';
+      src: url(BM/BMJUA_ttf.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Bm_1';
+    src: url(BM/BMYEONSUNG_ttf.ttf) format('truetype');
+}
+     body {
+       font-family: Bm;
+       margin:0;
+       color:white;
+       background-image: url(br.png);
+       background-repeat: no-repeat;
+       background-size:cover;
+     }
+     a { text-decoration:none;
+     color:white; }
+     #title {
+       font-size:45px;
+       text-align: center;
+       border-bottom:5px solid white;
+       margin:0;
+       padding:20px;
+     }
+     ul{
+       border-right:5px solid white;
+       width:100px;
+       margin:0;
+       padding:20px;
+     }
+     #grid{
+       display: grid;
+       grid-template-columns: 150px 1fr;
+     }
+     #grid ul{
+       padding-left:33px;
+     }
+     #grid #article{
+       padding-left:25px;
+     }
+     #name{
+       font-family: Bm_1;
+     }
+
+     xmp{
+       color:black;
+       font-family: Bm;
+     }
+
+    </style>
+  </head>
+  <body>
+    <div id="title"><h1><a href="index.html">WEB_Simulation</a></h1></div>
+    <div id="grid">
+      <ul>
+        <li><a href="a.html"><h3>a태그</h3></a></li>
+        <li><a href="h.html"><h3>h1~h6태그</h3></a></li>
+        <li><a href="l.html"><h3>ul,ol태그</h3></a></li>
+        <li><a href="div.html"><h3>div태그</h3></a></li>
+        <li><a href="hr.html"><h3>hr태그</h3></a></li>
+      </ul>
+
+<div id="article">
+    <h2>Tag_H1~H6</h2>
+    <p>
+      <h4 style="color:yellow;">정의</h4>
+      h1~h6태그는 글자의 크기를 제어하며 HTML 문단의 제목을 지정합니다<br>
+      h1 요소가 가장 크게 표시되며 h6 요소가 가장 작게 표시 되는데,<br> h1 부터 가장 중요한 제목에 사용하며 h6 요소는 가장 작은 제목을 나타낼 때 사용합니다.<br>
+
+      <h4 style="color:yellow;">사용법</h4><xmp>
+      <h1>H1</h1>
+      <h2>H2</h2>
+      <h3>H3</h3>
+      <h4>H4</h4>
+      <h5>H5</h5>
+      <h6>H6</h6>
+    </xmp>
+
+    <h4 style="color:yellow;">실제 사용</h4> <br>
+
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+<br><br>
+    </p>
+  </div>
+</div>
+</div>
+</div>
+  </body>
+</html>

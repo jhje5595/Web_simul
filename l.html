@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WEB_Simulation</title>
+    <style>
+    #title{
+      text-align : center;
+    }
+    @font-face {
+      font-family: 'Bm';
+      src: url(BM/BMJUA_ttf.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Bm_1';
+    src: url(BM/BMYEONSUNG_ttf.ttf) format('truetype');
+}
+     body {
+       font-family: Bm;
+       margin:0;
+       color:white;
+       background-image: url(br.png);
+       background-repeat: no-repeat;
+       background-size:cover;
+     }
+     a { text-decoration:none;
+     color:white; }
+     #title {
+       font-size:45px;
+       text-align: center;
+       border-bottom:5px solid white;
+       margin:0;
+       padding:20px;
+     }
+     #ul{
+       border-right:5px solid white;
+       width:100px;
+       margin:0;
+       padding:20px;
+     }
+     #grid{
+       display: grid;
+       grid-template-columns: 150px 1fr;
+     }
+     #grid ul{
+       padding-left:33px;
+     }
+     #grid #article{
+       padding-left:25px;
+     }
+     #name{
+       font-family: Bm_1;
+     }
+     xmp{
+       color:black;
+       font-family: Bm;
+     }
+
+
+
+    </style>
+  </head>
+  <body>
+    <div id="title"><h1><a href="index.html">WEB_Simulation</a></h1></div>
+    <div id="grid">
+      <ul id="ul">
+        <li><a href="a.html"><h3>a태그</h3></a></li>
+        <li><a href="h.html"><h3>h1~h6태그</h3></a></li>
+        <li><a href="l.html"><h3>ul,ol태그</h3></a></li>
+        <li><a href="div.html"><h3>div태그</h3></a></li>
+        <li><a href="hr.html"><h3>hr태그</h3></a></li>
+      </ul>
+
+<div id="article">
+    <h2>Tag_List</h2>
+    <p>
+      <h4 style="color:yellow;">정의</h4>
+      List태그는 목록을 나타날때 사용하는 태그입니다.<br>
+대표적으로 2가지 정도가 있는데 먼저 순서가 있는 목록을 만들때 필요한 li 태그.<br>
+순서가 필요 없는 목록을 만들때 필요한 ol 태그가 있습니다.<br>
+
+      <h4 style="color:yellow;">사용법</h4><xmp>
+        <ul>
+          <li>a태그</a></li>
+          <li>h1~h6태그</a></li>
+          <li>ul,ol태그</a></li>
+          <li>div태그</a></li>
+          <li>hr태그</a></li>
+        </ul>
+
+        <ol>
+          <li>a태그</a></li>
+          <li>h1~h6태그</a></li>
+          <li>ul,ol태그</a></li>
+          <li>div태그</a></li>
+          <li>hr태그</a></li>
+        </ol>
+      </xmp>
+a태그안에는 이런식으로 href라는 속성이 있는데 이안의 값이 우리가 이동할 주소가 됩니다.<br><br>
+<h4 style="color:yellow;">실제 사용</h4>
+<ul>
+  <li>a태그</a></li>
+  <li>h1~h6태그</a></li>
+  <li>ul,ol태그</a></li>
+  <li>div태그</a></li>
+  <li>hr태그</a></li>
+</ul>
+
+<ol>
+  <li>a태그</a></li>
+  <li>h1~h6태그</a></li>
+  <li>ul,ol태그</a></li>
+  <li>div태그</a></li>
+  <li>hr태그</a></li>
+</ol>
+<br><br>
+    </p>
+  </div>
+</div>
+</div>
+</div>
+  </body>
+</html>

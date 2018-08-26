@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WEB_Simulation</title>
+    <style>
+    #title{
+      text-align : center;
+    }
+    @font-face {
+      font-family: 'Bm';
+      src: url(BM/BMJUA_ttf.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Bm_1';
+    src: url(BM/BMYEONSUNG_ttf.ttf) format('truetype');
+}
+     body {
+       font-family: Bm;
+       margin:0;
+       color:white;
+       background-image: url(br.png);
+       background-repeat: no-repeat;
+       background-size:cover;
+     }
+     a { text-decoration:none;
+     color:white; }
+     #title {
+       font-size:45px;
+       text-align: center;
+       border-bottom:5px solid white;
+       margin:0;
+       padding:20px;
+     }
+     ul{
+       border-right:5px solid white;
+       width:100px;
+       margin:0;
+       padding:20px;
+     }
+     #grid{
+       display: grid;
+       grid-template-columns: 150px 1fr;
+     }
+     #grid ul{
+       padding-left:33px;
+     }
+     #grid #article{
+       padding-left:25px;
+     }
+     #name{
+       font-family: Bm_1;
+     }
+     xmp{
+       color:black;
+       font-family: Bm;
+     }
+
+
+    </style>
+  </head>
+  <body>
+    <div id="title"><h1><a href="index.html">WEB_Simulation</a></h1></div>
+    <div id="grid">
+      <ul>
+        <li><a href="a.html"><h3>a태그</h3></a></li>
+        <li><a href="h.html"><h3>h1~h6태그</h3></a></li>
+        <li><a href="l.html"><h3>ul,ol태그</h3></a></li>
+        <li><a href="div.html"><h3>div태그</h3></a></li>
+        <li><a href="hr.html"><h3>hr태그</h3></a></li>
+      </ul>
+
+<div id="article">
+    <h2>Tag_Hr</h2>
+    <p>
+      <h4  style="color:yellow;">정의</h4>
+hr 태그는 수평선을 그어서 장면의 전환, 다른 화제로의 전환 등을 위해 사용하는 요소입니다. <br>하지만, 문서 개요에는 영향을 미치지 않습니다.<br>
+
+      <h4 style="color:yellow;">사용법</h4><xmp>
+        <h1>HTML</h1>
+        <p>HTML입니다.</p>
+
+        <hr style="border:solid 4px white;">
+
+        <h1>CSS</h1>
+        <p>CSS입니다</p>
+      </xmp>
+<h4  style="color:yellow;">실제 사용</h4><br>
+<h1>HTML</h1>
+<p>HTML입니다.</p>
+
+        <hr style="border:solid 4px white;">
+
+<h1>CSS</h1>
+<p>CSS입니다</p>
+<br><br>
+    </p>
+  </div>
+</div>
+</div>
+</div>
+  </body>
+</html>
